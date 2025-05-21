@@ -1,10 +1,10 @@
-# YOLOv8 Annotation Generator
+# YOLO Annotation Generator
 
 This script performs object detection on a folder of images using a trained YOLOv8 model and generates Pascal VOC-style XML annotation files for each image.
 
 ## 🧠 Features
 
-- Uses YOLOv8 (`Ultralytics`) for inference
+- Uses YOLO (`Ultralytics`) for inference
 - Automatically maps class indices to names from the model itself
 - Generates XML annotations in Pascal VOC format
 - Option to filter detections based on confidence threshold and minimum number of detections
